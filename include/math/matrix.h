@@ -25,7 +25,7 @@ public:
         {
             for(uint32_t row = 0; row < RowCount; row++)
             {
-                os << mat.matrix[ col * RowCount + row ];
+                os << mat.matrix[ col * RowCount + row ] << ", ";
             }
             os << ";";
         }
